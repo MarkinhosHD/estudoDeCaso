@@ -9,6 +9,8 @@ public class BancoCc {
 		contaCorrente.setNomeCliente("Marcos");
 		contaCorrente.setSaldo(500.0);
 		
+		//contaCorrente.setDataCadastro();
+		
 		contaCorrente.depositar(250.75);
 		
 		int saqueRealizado = contaCorrente.sacar(600);

@@ -1,5 +1,7 @@
 package estudoDeCaso;
 
+import java.util.Date;
+
 public class ContaCorrente {
 	
 	private int conta;
@@ -7,6 +9,7 @@ public class ContaCorrente {
 	private double saldo;
 	private String nomeCliente;
 	
+	private Date dataCadastro;
 	
 		public int sacar(double valorSaque){
 			
@@ -30,6 +33,14 @@ public class ContaCorrente {
 					+ this.nomeCliente);
 		
 	}
+		
+		public Date getDataCadastro() {
+			return dataCadastro;
+		}
+
+		public void setDataCadastro(Date dataCadastro) {
+			this.dataCadastro = dataCadastro;
+		}		
 		
 		public int getConta() {
 			return conta;
